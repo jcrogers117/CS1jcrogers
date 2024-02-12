@@ -21,7 +21,7 @@ cout << setw(28) << "===========" << endl;
 
 
 cout << "Press Enter to Continue";
-cin.ignore(std::numeric_limits<streamsize>::max(),'\n');
+cin.ignore(std::numeric_limits<streamsize>::max(),'\n');  //https://stackoverflow.com/questions/903221/press-enter-to-continue
 
 cout <<"stage 1" << endl;
 cout << setw(40) << "|-----------------" << endl;
